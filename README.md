@@ -314,8 +314,8 @@ This project was created as an assignment for PrimeTrade Frontend Developer Inte
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@kartikey742](https://github.com/kartikey742)
+- Email: kumarkartikey742@gmail.com
 
 ## 🙏 Acknowledgments
 
