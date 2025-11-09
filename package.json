@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.10.1",
+    "concurrently": "^9.2.1",
+    "react-redux": "^9.2.0"
+  },
+  "name": "primetrade-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.1"
+  }
+}

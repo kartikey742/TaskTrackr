@@ -1,0 +1,10 @@
+const express = require("express");
+const {verify} = require("../middleware/auth.js");
+const { createTask,getAllTasks,updateStatus,updateTask,deleteTask } = require("../controllers/Task.js");
+const router = express.Router();
+router.get("/get-all", verify, getAllTasks);
+router.post("/create", verify, createTask);
+router.put("/statusUpdate/:id", verify,updateStatus);
+router.put("/update/:id", verify,updateTask);
+router.delete("/delete/:id", verify, deleteTask);
+module.exports = router;
